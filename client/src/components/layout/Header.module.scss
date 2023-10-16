@@ -1,0 +1,29 @@
+@use '@/styles/global' as *;
+
+.header{
+  border-bottom: 1px #000 solid;
+  height: 60px;
+
+  &_nav {
+    @extend %container;
+  }
+}
+
+
+.list {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+
+  &_item{
+    margin-right: 15px;
+    &_link{
+      padding: 2px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

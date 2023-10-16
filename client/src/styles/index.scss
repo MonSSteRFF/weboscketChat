@@ -1,0 +1,18 @@
+*,:before,:after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+  font-family: sans-serif;
+  color: #000;
+}
+
+html,body,#root{
+  overflow: hidden;
+  height: 100dvh;
+}
+

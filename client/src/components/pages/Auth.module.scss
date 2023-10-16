@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100dvh - 60px);
+}
+
+
+.authField {
+  border: 1px #000 solid;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px #000 solid;
+  margin-bottom: 10px;
+
+  &:focus{
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.button{
+  border: 1px #000 solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  &:focus{
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.5);
+
+  }
+}
